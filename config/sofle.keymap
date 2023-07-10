@@ -62,11 +62,11 @@
             //              |      |       |       |      |      |  |      |      |      |       |      |
 
             bindings = <
-      &trans  &kp NUMBER_1      &kp NUMBER_2    &kp NUMBER_0          &kp MINUS       &kp PLUS                     &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4  &bt BT_CLR
-      &trans         &kp H  &kp LEFT_BRACKET    &kp UP_ARROW  &kp RIGHT_BRACKET       &kp BSLH                           &trans        &trans        &trans        &trans        &trans      &trans
-&kp CAPSLOCK         &kp L          &kp LEFT  &kp DOWN_ARROW    &kp RIGHT_ARROW       &kp SEMI                           &trans        &trans        &trans        &trans        &trans      &trans
-      &trans         &kp M             &kp I           &kp O              &kp P        &kp SQT     &trans  &trans        &trans        &trans        &trans        &trans        &trans      &trans
-                                       &sl 0          &trans             &trans  &kp BACKSPACE  &kp ENTER  &trans        &trans        &trans        &trans        &trans
+&trans  &kp NUMBER_1      &kp NUMBER_2    &kp NUMBER_0          &kp MINUS       &kp PLUS                     &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4  &bt BT_CLR
+&trans         &kp H  &kp LEFT_BRACKET    &kp UP_ARROW  &kp RIGHT_BRACKET       &kp BSLH                           &trans        &trans        &trans        &trans        &trans      &trans
+&trans         &kp L          &kp LEFT  &kp DOWN_ARROW    &kp RIGHT_ARROW       &kp SEMI                           &trans        &trans        &trans        &trans        &trans      &trans
+&trans         &kp M             &kp I           &kp O              &kp P        &kp SQT     &trans  &trans        &trans        &trans        &trans        &trans        &trans      &trans
+                                 &sl 0          &trans             &trans  &kp BACKSPACE  &kp ENTER  &trans        &trans        &trans        &trans        &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
